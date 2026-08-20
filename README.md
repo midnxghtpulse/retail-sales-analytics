@@ -6,7 +6,7 @@ retail sales analytics project using sql, postgresql and power bi to explore sal
 
 this project analyzes the brazilian e-commerce public dataset by olist, which contains transactional data from an online marketplace.
 
-the goal is to simulate a real business analysis workflow by storing the data in postgresql, writing sql queries to answer business questions and later building a power bi dashboard with the main kpis and insights.
+the goal is to simulate a real business analysis workflow by storing the data in postgresql, writing sql queries to answer business questions and building a power bi dashboard with the main kpis and insights.
 
 ## tools
 
@@ -88,17 +88,6 @@ only **3.00%** of customers made more than one delivered order.
 
 this suggests a significant opportunity for customer retention and repeat-purchase strategies.
 
-## repository structure
-
-```text
-retail-sales-analytics/
-├── data/
-├── sql/
-│   └── 01_sales_analysis.sql
-├── dashboard/
-├── images/
-└── README.md
-```
 
 ## sql analysis
 
