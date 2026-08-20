@@ -106,10 +106,8 @@ the sql queries used in this project can be found in:
 
 `sql/01_sales_analysis.sql`
 
-## next steps
+## finally! the dashboard!
 
-* build the power bi dashboard
-* create visualizations for the main kpis
-* analyze monthly sales growth in more detail
-* explore seller performance
-* investigate customer retention opportunities
+the final dashboard was built in power bi and summarizes the main business metrics and insights from the analysis.
+
+![dashboard overview](images/dashboard_overview.png)
