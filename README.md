@@ -22,9 +22,9 @@ the dashboard brings together the main kpis and business findings from the analy
 
 ## the dataset
 
-the olist dataset is split across several tables instead of giving everything in one convenient spreadsheet.
+this project uses the brazilian e-commerce public dataset by olist.
 
-that made it a good fit for practicing a more realistic analytics workflow.
+the raw csv files are not stored in this repository. download instructions and the list of required files are available in [`data/README.md`](data/README.md).
 
 the analysis uses data about:
 
@@ -39,8 +39,6 @@ the analysis uses data about:
 
 the tables were loaded into postgresql and connected through their respective ids before the analysis started.
 
----
-
 ## what i wanted to know
 
 i didn't want this project to become a collection of random charts, so i started with actual questions.
@@ -54,7 +52,9 @@ i didn't want this project to become a collection of random charts, so i started
 * does arriving late actually affect customer reviews?
 * how many customers ever come back for another purchase?
 
-the sql used to answer these questions is available in [`sql/01_sales_analysis.sql`](sql/01_sales_analysis.sql).
+the database structure is defined in [`sql/00_database_setup.sql`](sql/00_database_setup.sql).
+
+the analysis queries are available in [`sql/01_sales_analysis.sql`](sql/01_sales_analysis.sql).
 
 ---
 
