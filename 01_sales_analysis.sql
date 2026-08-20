@@ -1,5 +1,4 @@
--- retail sales analytics
--- sales and business analysis using the olist dataset
+-- retail sales analytics; sales and business analysis using the olist dataset
 
 -- 1: order status distribution
 select
